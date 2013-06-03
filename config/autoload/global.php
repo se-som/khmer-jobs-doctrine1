@@ -14,7 +14,7 @@
 return array(
 	'db' => array(
 		'driver' => 'Pdo',
-		'dsn' => 'mysql:dbname=khmer_jobs;host=localhost',
+		'dsn' => 'mysql:dbname=zf2-example;host=localhost',
 		'username' => 'root',
 		'password' => '',
 		'driver_options' => array(
@@ -36,7 +36,7 @@ return array(
                     'port'     => '3306',
                     'user'     => 'root',
                     'password' => '',
-                    'dbname'   => 'khmer_jobs',
+                    'dbname'   => 'zf2-doctrine-example',
                 )
             )
         )
